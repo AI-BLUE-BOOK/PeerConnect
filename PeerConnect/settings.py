@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'PAGES.apps.PagesConfig',
+    'Near_by.apps.NearByConfig',
 ]
 
 MIDDLEWARE = [
