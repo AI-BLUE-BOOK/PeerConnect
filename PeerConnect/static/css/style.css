@@ -646,14 +646,17 @@ header.sticky {
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
     z-index: 99;
     position: relative;
+    
 }
 
 .logo {
     display: inline-block;
     vertical-align: inherit;
-    width: 15%;
+    width: 6%;
     position: relative;
     z-index: 10;
+    margin-right:58px;
+    
 }
 
 .topbar > form {
