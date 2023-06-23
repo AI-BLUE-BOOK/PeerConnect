@@ -22,6 +22,9 @@ from django.conf.urls.static import static
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('PAGES.urls')),
+    path('nearby/', include('PAGES.urls')),
+
+
     path('newsfeed/', include('PAGES.urls')),
     path('logout/', include('PAGES.urls')),
     path('index-company/', include('PAGES.urls')),
@@ -70,7 +73,6 @@ urlpatterns = [
     path('careers/', include('PAGES.urls')),
     path('career-detail/', include('PAGES.urls')),
     path('career-branches/', include('PAGES.urls')),
-    
     path('404/', include('PAGES.urls')),
     path('faq/', include('PAGES.urls')),
     path('insights/', include('PAGES.urls')),
@@ -84,8 +86,9 @@ urlpatterns = [
     path('/', include('PAGES.urls')),
     path('/', include('PAGES.urls')),
 
-
+    
     
     
     
 ] ##+ static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)##
+

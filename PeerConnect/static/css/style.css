@@ -2088,6 +2088,7 @@ footer::before {
 
 .foot-logo > p {
     color: #545454;
+    
 }
 
 .location {
@@ -2211,7 +2212,7 @@ a.underline:hover:before,
 
 .foot-logo {
     display: inline-block;
-    width: 100%;
+    width: 40%;
 }
 
 footer .logo {

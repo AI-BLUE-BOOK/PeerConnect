@@ -5,6 +5,12 @@ from django.shortcuts import render
 def index(request):
     return render(request, 'pages/index.html')
 
+def nearby(request):
+    return render(request, 'pages/people-nearby.html')
+
+
+
+
 def newsfeed(request):
     return render(request, 'pages/newsfeed.html')
 
@@ -42,9 +48,6 @@ def groups(request):
 
 def pagelikers(request):
     return render(request, 'pages/page-likers.html')
-
-def peoplenearby(request):
-    return render(request, 'pages/people-nearby.html')
 
 def favpage(request):
     return render(request, 'pages/fav-page.html')

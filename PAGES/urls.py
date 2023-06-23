@@ -3,6 +3,9 @@ from . import views
 
 urlpatterns = [
     path('', views.index, name="index"),
+    path('nearby/', views.nearby, name="nearby"),
+
+
     path('newsfeed/', views.newsfeed, name="newsfeed"),
     path('logout/', views.logout, name="logout"),
     path('index-company/', views.indexcompany, name="index-company"),
@@ -15,7 +18,6 @@ urlpatterns = [
     path('timeline-videos/', views.timelinevideos, name="timeline-videos"),
     path('groups/', views.groups, name="groups"),
     path('page-likers/', views.pagelikers, name="page-likers"),
-    path('peoplenearby/', views.peoplenearby, name="people-nearby"),
     path('fav-page/', views.favpage, name="fav-page"),
     path('create-fav-page/', views.favpage, name="create-fav-page"),
     path('edit-account-setting/', views.editaccountsettings, name="edit-account-setting"),
@@ -64,5 +66,6 @@ urlpatterns = [
     path('sitemap/', views.sitemap, name="sitemap"),
     path('terms/', views.terms, name="terms"),
     
+
 
 ]
