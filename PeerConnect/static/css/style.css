@@ -2278,11 +2278,20 @@ footer .logo {
 /*--- bottombar ---*/
 
 .bottombar {
-    background: #f6f6f6;
+    background: #fdfafa;
+    color: rgb(255, 0, 34);
+    
     float: left;
-    padding: 20px 0;
+    padding: 30px 60px;
     width: 100%;
 }
+
+/*
+.bottombar > a{
+    font-size:499px;
+}
+
+*/
 
 .copyright {
     float: left;
